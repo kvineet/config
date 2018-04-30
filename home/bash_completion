@@ -1,0 +1,10 @@
+
+# Put your completion code here, or preferably in ~/.bash_completion.d/
+
+# Stop here if bash_completion.d doesn't exists
+[[ ! -d ~/.bash_completion.d ]] && return
+[[ -z ~.bash_completion.d ]] && return
+
+for bcfile in ~/.bash_completion.d/* ; do
+	. $bcfile
+done
