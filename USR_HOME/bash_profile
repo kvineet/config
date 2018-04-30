@@ -1,0 +1,6 @@
+#
+# ~/.bash_profile
+#
+# This is always called for non interactive shells
+[[ -f ~/.extend.bash_profile ]] && . ~/.extend.bash_profile
+
